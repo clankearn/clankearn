@@ -2,51 +2,152 @@
 <html>
 <head>
 <title>ClankEarn</title>
+
 <style>
+
 body{
-font-family: Arial;
-background:#0b0f1a;
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#0b0f1a,#111a33);
 color:white;
 text-align:center;
-padding:50px;
+}
+
+header{
+padding:60px 20px;
 }
 
 h1{
-font-size:48px;
+font-size:56px;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-size:20px;
+opacity:0.8;
+}
+
+button{
+margin-top:20px;
+padding:12px 30px;
+font-size:16px;
+border:none;
+border-radius:8px;
+background:#4f7cff;
+color:white;
+cursor:pointer;
+}
+
+section{
+padding:60px 20px;
+}
+
+.features{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
 }
 
 .card{
-background:#141a2e;
-padding:20px;
-border-radius:10px;
-margin:20px;
-display:inline-block;
+background:#151c34;
+padding:25px;
+border-radius:12px;
 width:260px;
 }
+
+.card h3{
+margin-top:0;
+}
+
+.leaderboard{
+max-width:600px;
+margin:auto;
+background:#151c34;
+border-radius:12px;
+padding:20px;
+}
+
+.user{
+display:flex;
+justify-content:space-between;
+padding:10px;
+border-bottom:1px solid #2a335a;
+}
+
+footer{
+margin-top:60px;
+padding:20px;
+font-size:14px;
+opacity:0.7;
+}
+
 </style>
 </head>
 
 <body>
 
+<header>
 <h1>ClankEarn</h1>
-<p>Discover real Web3 earnings from real users.</p>
+<p class="subtitle">Discover real Web3 earnings from real users</p>
+<button>Upload Earnings</button>
+</header>
 
-<h2>How it Works</h2>
+<section>
+
+<h2>How It Works</h2>
+
+<div class="features">
 
 <div class="card">
-<h3>Upload Earnings</h3>
-<p>Share screenshots of your Web3 earnings.</p>
+<h3>📸 Upload Proof</h3>
+<p>Share screenshots of your airdrop, bounty, or campaign earnings.</p>
 </div>
 
 <div class="card">
-<h3>Share Strategy</h3>
-<p>Explain how you earned from airdrops or campaigns.</p>
+<h3>🧠 Share Strategy</h3>
+<p>Explain how you earned so others can learn your Web3 strategy.</p>
 </div>
 
 <div class="card">
-<h3>Leaderboard</h3>
-<p>See the top Web3 earners each week.</p>
+<h3>🏆 Weekly Leaderboard</h3>
+<p>Compete with other earners and climb the top rankings.</p>
 </div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Top Earners</h2>
+
+<div class="leaderboard">
+
+<div class="user">
+<span>🥇 @alpha_hunter</span>
+<span>$3,200</span>
+</div>
+
+<div class="user">
+<span>🥈 @airdrop_farmer</span>
+<span>$2,450</span>
+</div>
+
+<div class="user">
+<span>🥉 @web3_grinder</span>
+<span>$1,980</span>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Built for the Web3 community</p>
+
+</footer>
 
 </body>
 </html>
